@@ -1,0 +1,49 @@
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 0px;
+    top: 5px;
+  }
+
+.resoursesInfo{
+    position: absolute;
+    width: 956px;
+    height: 263px;
+    left: 53px;
+    top: 320px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+h2{
+    position: absolute;
+    text-decoration: none;
+    text-align: left;
+    left: 60px;
+    top: 630px;
+}
+
+.ul{
+    position: absolute;
+    width: 900px;
+   
+    left: 70px;
+    top: 640px;
+
+  
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 23px;
+    
+    font-family: Roboto;
+   
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
