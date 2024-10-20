@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РЕСУРСЫ</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="site.js"></script>
+    <link rel="stylesheet" href="elcat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* Стили для контейнера ul */
+        .ul {
+            list-style-type: none; /* Убираем стандартные маркеры списка */
+            padding-left: px; /* Отступ слева */
+        }
+
+        /* Стили для элементов списка */
+        .ul li {
+            position: relative;
+            padding-bottom: 2px; /* Отступ снизу для подчеркивания */
+            display: inline-block; /* Делаем элементы списка блочными, чтобы подчеркивание адаптировалось к ширине текста */
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .ul li::before {
+            content: '.'; /* Добавляем точку перед каждым элементом списка */
+            margin-right: 10px; /* Отступ между точкой и текстом */
+            font-size: 30px;/*Толщина линии*/
+        }
+
+        .ul li::after {
+            content: '';
+            position: absolute;
+            left: 20px; /* Сдвигаем линию вправо, чтобы она начиналась после точки */
+            bottom: 0;
+            width: calc(100% - 20px); /* Ширина линии минус отступ слева */
+            height: 2px; /* Толщина подчеркивания */
+            background-color: black; 
+        }
+    </style>
+</head>
+<body>
+    <img class = "logo" src="images/logo.png">  
+        <nav class="menu-list">
+            
+            <a class="nav-main_link" href="#">Главная</a>
+            <a class="nav-main_link" href="#">Ресурсы</a>
+            <a class="nav-main_link" href="#">База данных</a>
+            <a class="nav-main_link" href="#">Читателям</a>
+            <a class="nav-main_link" href="#">Услуги</a>
+            <a class="nav-main_link" href="#">О библиотеке</a>
+        </nav>
+    <div class="resoursesInfo">
+        <b>Электронный каталог — организованная коллекция наименований электронных<br> документов, включающая издания, используемые для информационного<br> обеспечения образовательного и научно-исследовательского процесса<br> университета, и обеспечивающий возможность доступа к ним через сеть<br> Интернет. Электронный каталог реализован с использованием программного<br> обеспечения АИБС «MARC-SQL 1.22».<br> Электронный каталог находится на внешнем сервере. Получить доступ к нему<br> можно перейдя по ссылке.</b>
+    </div>
+    <h2><b>ИНФОРМАЦИОННЫЕ ЭЛЕКТРОННЫЕ РЕСУРСЫ БИБЛИОТЕКИ:</h2>
+    <ul class="ul">
+        <a class = "href" href = https://minobrnauki.gov.ru>
+            <br><li>Министерство науки и высшего образования Российской Федерации</li>
+        </a>
+        
+        <a class="href" href = https://obrnadzor.gov.ru>
+            <br><li>Федеральная служба по надзору в сфере образования и науки</li>
+        </a>
+        
+        <a class = "href" href = https://www.edu.ru>
+            <br><li>Федеральный портал Российское образование</li>
+        </a>
+        
+        <a class = "href" href = https://web.archive.org/web/20191122092928/http://window.edu.ru>
+            <br><li>Единое окно доступа к образовательным ресурсам</li>
+        </a>
+        
+        <a class = "href" href = https://web.archive.org/web/20191121151247/http://fcior.edu.ru>
+            <br><li>Федеральный центр информационно-образовательных ресурсов</li>
+        </a>
+        
+    </ul>
+<footer>
+    Эл. почта: library@kubstu.ru
+    <br>Телефоны: гор. +7(861)259-31-29; 255-10-45, местн.3-59
+    <br>Адрес: 350072, г.Краснодар, ул. Московская, д2(4 эт., ауд. А-421)
+</footer>
+
+</body>
+
+</html>
